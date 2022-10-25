@@ -3,7 +3,7 @@
 set -e
 
 # install afl
-cargo install afl
+cargo install --version 0.7.0 afl
 
 # test afl
 TMP_DIR=${HOME}
@@ -12,7 +12,7 @@ cd ${TMP_DIR}
 # This demo is from https://rust-fuzz.github.io/book/afl/tutorial.html
 cd ${TMP_DIR} && rm -rf ${BIN}
 cargo new --bin ${BIN}
-echo $'afl = \"*\"
+echo $'afl = \"0.7.0\"
 url = \"*\"' >> ${TMP_DIR}/${BIN}/Cargo.toml
 echo $'#[macro_use]
 extern crate afl;
