@@ -17,6 +17,8 @@ unable to find user jjf: no matching entries in passwd file
 ...
 ```
 
+Solution
+local 에서 sudo 권한을 root 모드에서 user 모드으로 변경
 
 ```shell
 sudo usermod -aG docker $USER
