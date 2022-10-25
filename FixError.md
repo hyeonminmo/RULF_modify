@@ -6,6 +6,7 @@
 sudo ./docker/docker-build
 ```
 
+Error message
 ```shell
 ...
  ---> Running in a3f351faf2b9
