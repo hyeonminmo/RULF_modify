@@ -90,7 +90,7 @@ RUN echo $'[source.crates-io] \n\
 registry = \"https://github.com/rust-lang/crates.io-index\" \n\ 
 replace-with = \'ustc\' \n\ 
 [source.ustc] \n\ 
-registry = \"git://mirrors.ustc.edu.cn/crates.io-index\"' > ${USER_HOME}/.cargo/config
+registry = \"https://mirrors.ustc.edu.cn/crates.io-index\"' > ${USER_HOME}/.cargo/config
 
 ENV USER="${USERNAME}"
 
