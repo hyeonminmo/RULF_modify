@@ -1,6 +1,6 @@
 # How to fix error message
 
-## docker/docker-build 실행시 생기는 에러 메세지
+## docker/docker-build 실행 시 생기는 에러 메세지
 
 ```shell
 sudo ./docker/docker-build
