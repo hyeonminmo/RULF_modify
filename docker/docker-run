@@ -6,4 +6,4 @@ VERSION="v0.1"
 #readonly DOCKER_USER="${USER:-root}"
 readonly DOCKER_USER="jjf"
 readonly PWD=`pwd`
-docker run -it -v ${PWD}:/home/${DOCKER_USER}/Fuzzing-Target-Generator --rm fuzz-target-generator:$VERSION
+docker run -it -v ${PWD}:/home/${DOCKER_USER}/Fuzzing-Target-Generator fuzz-target-generator:$VERSION
