@@ -92,7 +92,7 @@ Then, replace the first word `rustdoc` with `fuzz-target-generator`. So, the com
 Run this command and you will get fuzz targets in your `$URL_OUTPUT_PATH`.(We are trying to simplify the command with cargo.)  
 ### How to fuzz the generated targets with [afl.rs](https://github.com/rust-fuzz/afl.rs) and interpreting the fuzzing results? 
 
-Once you get fuzz targets, you can fuzz these targets with [afl.rs](https://github.com/rust-fuzz/afl.rs). You can follow the instructions of afl.rs on your own. Or use our [prepared command line scripts](https://github.com/Artisan-Lab/Fuzzing-Scripts). More details can be seen in the README.md of our scripts.
+Once you get fuzz targets, you can fuzz these targets with [afl.rs](https://github.com/rust-fuzz/afl.rs). You can follow the instructions of afl.rs on your own. Or use our [prepared command line scripts](https://github.com/hyeonminmo/Fuzzing-Scripts_modify). More details can be seen in the README.md of our scripts.
 
 ### Limitations  
 
