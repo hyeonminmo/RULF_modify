@@ -7,7 +7,7 @@ cd ${TMP_DIR}
 if [ ! -d "${TMP_DIR}/Fuzzing-Scripts" ]; then
    git clone https://github.com/hyeonminmo/Fuzzing-Scripts_modify.git
 fi
-cd Fuzzing-Scripts
+cd Fuzzing-Scripts_modify
 cargo install --path afl_scripts
 cargo install --path find_literal
 cd ${TMP_DIR} && rm -rf Fuzzing-Scripts_modify
