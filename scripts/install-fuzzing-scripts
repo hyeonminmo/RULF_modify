@@ -5,7 +5,7 @@ set -e
 TMP_DIR=${HOME}
 cd ${TMP_DIR}
 if [ ! -d "${TMP_DIR}/Fuzzing-Scripts" ]; then
-   git clone https://github.com/Artisan-Lab/Fuzzing-Scripts
+   git clone https://github.com/hyeonminmo/Fuzzing-Scripts_modify.git
 fi
 cd Fuzzing-Scripts
 cargo install --path afl_scripts
